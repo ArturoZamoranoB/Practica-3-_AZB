@@ -10,16 +10,16 @@ namespace Practica_3__AZB
     {
         public void practica2()
         {
-            string[,] jose = new string[2, 2] { { "Rojo", "Verde" }, { "Azul", "Amarillo"} };
+            string[,] matriz_bi = new string[2, 2] { { "Rojo", "Verde" }, { "Azul", "Amarillo"} };
 
-            for (int fila = 0; fila < jose.GetLength(0); fila++)
+            for (int fila = 0; fila < matriz_bi.GetLength(0); fila++)
             {
                 Console.WriteLine("--------------------------------");
                 Console.WriteLine($"elementos de la fila  {fila}");
                 Console.WriteLine("--------------------------------");
-                for (int columna = 0; columna < jose.GetLength(1); columna++)
+                for (int columna = 0; columna < matriz_bi.GetLength(1); columna++)
                 {
-                    Console.WriteLine($"Posicion = {columna} palabra = " + jose[fila  , columna] );
+                    Console.WriteLine($"Posicion = {columna} palabra = " + matriz_bi[fila  , columna] );
 
 
                 }

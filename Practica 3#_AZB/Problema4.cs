@@ -12,18 +12,18 @@ namespace Practica_3__AZB
 
         public void practica5()
         {
-            string[,] jose = new string[2, 4] { { "A", "B", "C", "D" }, { "E", "F", "G", "H" } };
+            string[,] matriz_bi = new string[2, 4] { { "A", "B", "C", "D" }, { "E", "F", "G", "H" } };
 
-            for (int fila = 0; fila < jose.GetLength(0); fila++)
+            for (int fila = 0; fila < matriz_bi.GetLength(0); fila++)
             {
                 
-                for (int columna = 0; columna < jose.GetLength(1); columna++)
+                for (int columna = 0; columna < matriz_bi.GetLength(1); columna++)
                 {
-                    Console.WriteLine(jose[fila,columna]);
+                    Console.Write("{0,-5}|" ,matriz_bi[fila,columna]);
 
 
                 }
-
+                Console.WriteLine();
 
 
             }
